@@ -34,3 +34,6 @@ fatal: the remote end hung up unexpectedly
 解决办法：git config --global http.version HTTP/1.1  
 ### 10.SSH Key如何获取设置  
 > https://blog.csdn.net/qq_40770527/article/details/124129505  
+
+## 2022.7.1
+### 修改satvis项目代码，让starlink的星全部显示到页面上
