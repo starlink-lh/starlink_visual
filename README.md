@@ -14,14 +14,14 @@ The file will have its original line endings in your working directory
 ### 6.git status 查看状态  
 ### 7.git commit -m "注释"  
 ### 8.git remote add 仓库地址  
->> 注：Git出现 fatal: ‘origin‘ does not appear to be a git repository fatal: Could not read from remote  
+> 注：Git出现 fatal: ‘origin‘ does not appear to be a git repository fatal: Could not read from remote  
 解决办法：https://blog.csdn.net/weixin_47872288/article/details/124944945  
 git remote -v，查看仓库信息是否正确  
 git remote remove orign，删除远程仓库  
 git remote add origin 仓库，重新添加远程仓库  
 git push -u origin master，提交信息到master仓库  
 ### 9.git push -u origin master  
->>> 注：  
+> 注：  
 会出现错误：fatal: unable to access 'https://github.com/mzLiuGitHub/satvis_demo.git/': OpenSSL SSL_read: Connection was reset, errno 10054  
 解决办法：git config --global http.sslVerify false  
 会出现错误：fatal: unable to access 'https://github.com/mzLiuGitHub/satvis_demo.git/': Failed to connect to github.com port 443 after 21076 ms: Timed out  
