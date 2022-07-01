@@ -1,6 +1,3 @@
-# starlink_visual
-starlink_visual
-
 ## 2022.6.30总结GitHub上传项目  
 ### 1.下载Git，找一个空白文件夹  
 ### 2.右键Git Bash Here  
